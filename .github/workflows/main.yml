@@ -25,7 +25,7 @@ jobs:
 
     - name: Run the notebook
       run: |
-        jupyter nbconvert --to notebook --execute your_notebook.ipynb --output Final-spam-detection.ipynb
+        jupyter nbconvert --to notebook --execute Final-spam-detection.ipynb --output Final-spam-detection.ipynb
 
     - name: Commit and push changes
       run: |
