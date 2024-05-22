@@ -1,0 +1,8 @@
+requests
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+seaborn
+matplotlib
+ucimlrepo
