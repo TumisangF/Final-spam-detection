@@ -25,7 +25,7 @@ jobs:
 
     - name: Run the notebook
       run: |
-        jupyter nbconvert --to notebook --execute Final-spam-detection/nlp-project.ipynb --output nlp-project.ipynb
+        jupyter nbconvert --to notebook --execute nlp-project.ipynb --output nlp-project.ipynb
 
     - name: Commit and push changes
       run: |
