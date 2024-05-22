@@ -1,12 +1,12 @@
-name: Run Notebook
+name: Fetch Dataset
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '0 0 * * 0'  # This runs at midnight every Sunday
+  workflow_dispatch:  # Allows manual triggering from the GitHub Actions tab
 
 jobs:
-  run-notebook:
+  fetch-dataset:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,23 +16,17 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'
+        python-version: '3.x'  # Specify your Python version
 
     - name: Install dependencies
       run: |
-        pip install --upgrade pip
-        pip install jupyter nbconvert
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Install Jupyter
+      run: |
+        pip install jupyter
 
     - name: Run the notebook
       run: |
-        jupyter nbconvert --to notebook --execute nlp-project.ipynb --output nlp-project.ipynb
-
-    - name: Commit and push changes
-      run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add executed_notebook.ipynb
-        git commit -m "Execute notebook"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        jupyter nbconvert --to notebook --execute nlp-project.ipynb --output executed_notebook(github_workflow).ipynb
