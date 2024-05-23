@@ -29,4 +29,4 @@ jobs:
 
     - name: Run the notebook
       run: |
-        jupyter nbconvert --to notebook --execute nlp-project.ipynb --output executed_notebook(github_workflow).ipynb
+        jupyter nbconvert --to notebook --execute nlp-project.ipynb --output executed_notebook.ipynb
