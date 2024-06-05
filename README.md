@@ -1,5 +1,6 @@
 # 📧 Spam Detection NLP Project
 ![spam-detection](https://miro.medium.com/v2/resize:fit:800/1*8eJhfKzFb_0yg61H4Bq5EA.jpeg)
+
 ![Spam Detection](https://img.shields.io/badge/Spam%20Detection-NLP-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.8+-brightgreen.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
