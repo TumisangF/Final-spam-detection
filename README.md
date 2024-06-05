@@ -60,40 +60,30 @@ To train the model and detect spam, follow these steps:
     jupyter notebook nlp-project.ipynb
     ```
 
-2. **Train the model:**
-    ```sh
-    python train.py
-    ```
-
-3. **Make predictions:**
-    ```sh
-    python predict.py --input "Your message here"
-    ```
-
 ## 📚 Dataset
 
-The dataset used for this project is [SpamAssassin Public Corpus](http://spamassassin.apache.org/publiccorpus/). Make sure to download and place it in the `data` directory.
+The dataset used for this project is [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/94/spambase). Make sure to download and place it in the `data` directory.
 
 ## 🧠 Model
 
 This project implements several models, including:
-- Naive Bayes
+- Random Forest
 - Support Vector Machines (SVM)
-- Long Short-Term Memory (LSTM) networks
-
-You can select the model type by editing the configuration in `config.json`.
+- Logistic Regression
+- Gradient Boosting
 
 ## 📈 Results
 
-| Model        | Accuracy | Precision | Recall | F1 Score |
-|--------------|----------|-----------|--------|----------|
-| Naive Bayes  | 95.6%    | 94.3%     | 96.8%  | 95.5%    |
-| SVM          | 96.2%    | 95.1%     | 97.3%  | 96.2%    |
-| LSTM         | 97.1%    | 96.4%     | 98.0%  | 97.2%    |
+| Model                | Accuracy | Precision | Recall | F1 Score |
+|----------------------|----------|-----------|--------|----------|
+| Random Forest        | 93.0%    | 94.2%     | 91.8%  | 93.0%    |
+| SVM                  | 93.1%    | 95.1%     | 92.3%  | 93.2%    |
+| Logistic Regression  | 92.6%    | 96.4%     | 92.5%  | 92.7%    |
+| Gradient Boosting    | 93.0%    | 96.4%     | 91.9%  | 93.0%    |
 
 ## 🤝 Contributing
 
-We welcome contributions to this project! If you have suggestions or improvements, please:
+contributions are welcomed to this project! If you have suggestions or improvements, please:
 1. Fork the repository
 2. Create a new branch (`git checkout -b feature-branch`)
 3. Commit your changes (`git commit -am 'Add new feature'`)
@@ -106,6 +96,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 🙏 Acknowledgements
 
-- [SpamAssassin Public Corpus](http://spamassassin.apache.org/publiccorpus/)
+- [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/94/spambase)
 - [Scikit-learn](https://scikit-learn.org/)
 - [TensorFlow](https://www.tensorflow.org/)
