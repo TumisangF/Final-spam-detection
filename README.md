@@ -63,6 +63,10 @@ To train the model and detect spam, follow these steps:
     jupyter notebook nlp-project.ipynb
     ```
 
+## 🤖 Automated Dataset Retrieval and Training
+
+This project includes a GitHub Actions workflow that automatically retrieves the latest dataset and trains the model. This ensures that the model is always up-to-date with the most recent data. The workflow runs every Sunday at midnight and can also be triggered manually from the GitHub Actions tab.
+
 ## 📚 Dataset
 
 The dataset used for this project is [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/94/spambase). Make sure to download and place it in the `data` directory.
