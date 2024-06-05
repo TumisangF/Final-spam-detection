@@ -55,9 +55,9 @@ Follow these steps to set up the project locally:
 
 To train the model and detect spam, follow these steps:
 
-1. **Preprocess the data:**
+1. **Run the Jupyter notebook**
     ```sh
-    python preprocess.py
+    jupyter notebook nlp-project.ipynb
     ```
 
 2. **Train the model:**
