@@ -9,6 +9,8 @@
 
 Welcome to the Spam Detection NLP Project! This project aims to build a robust spam detection system using Natural Language Processing (NLP) techniques. The goal is to accurately classify messages as spam or not spam, helping to filter unwanted messages.
 
+This project is part of NLP project course in the Bachelor's program of Artificial Intelligence at IU International University of Applied Sciences.
+
 ## 📜 Table of Contents
 
 - [Project Overview](#-project-overview)
