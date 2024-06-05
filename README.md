@@ -1,7 +1,3 @@
-Certainly! Here's a template for a README file for your spam detection NLP project. This template includes various sections commonly found in well-documented projects and is designed to be visually appealing and easy to follow.
-
----
-
 # 📧 Spam Detection NLP Project
 
 ![Spam Detection](https://img.shields.io/badge/Spam%20Detection-NLP-blue.svg)
