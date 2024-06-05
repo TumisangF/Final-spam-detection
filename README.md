@@ -23,11 +23,13 @@ Welcome to the Spam Detection NLP Project! This project aims to build a robust s
 
 ## ✨ Features
 
+- System for fetching latest dataset automatically
+- Data Exploration
 - Preprocessing of text data (tokenization, stemming, etc.)
+- Feature Engineering
 - Implementation of various NLP models (e.g., Naive Bayes, SVM, LSTM)
 - Model evaluation and performance metrics
 - Visualization of results
-- Easy-to-use API for spam detection
 
 ## 🛠️ Installation
 
