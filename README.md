@@ -37,8 +37,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/spam-detection-nlp.git
-    cd spam-detection-nlp
+    git clone https://github.com/TumisangF/Final-spam-detection
     ```
 
 2. **Create a virtual environment:**
