@@ -69,7 +69,7 @@ This project includes a GitHub Actions workflow that automatically retrieves the
 
 ## 📚 Dataset
 
-The dataset used for this project is [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/94/spambase). Make sure to download and place it in the `data` directory.
+The dataset used for this project is [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/94/spambase).
 
 ## 🧠 Model
 
